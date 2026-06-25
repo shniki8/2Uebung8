@@ -42,4 +42,8 @@ public class Anmeldung {
     public void setName(String name) {
         this.name = name;
     }
+    public int nameLength(){ //Ich bin mal so frei
+            String s = "["+matrikelnummer+"] " + name;
+            return s.length();
+    }
 }

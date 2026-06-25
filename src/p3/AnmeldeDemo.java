@@ -16,7 +16,7 @@ public class AnmeldeDemo {
         liste.eintragen(new Anmeldung("12345", "Anna" ));
         System.out.println(liste.anzahl());
         printList(liste);
-        liste.bereinigenTest();
+        liste.bereinigenTest2();
         System.out.println(liste.anzahl());
         printList(liste);
     }
