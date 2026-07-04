@@ -43,7 +43,6 @@ public class Anmeldung {
         this.name = name;
     }
     public int nameLength(){ //Ich bin mal so frei
-            String s = "["+matrikelnummer+"] " + name;
-            return s.length();
+            return name.length();
     }
 }
